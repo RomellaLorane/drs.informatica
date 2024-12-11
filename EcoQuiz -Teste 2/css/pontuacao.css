@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.pontuacao {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.imagem img {
+    max-width: 94.3%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.finalizar .botao {
+    display: inline-block;
+    background-color: #264d3b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 150px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.finalizar .botao:hover {
+    background-color: #1e3d2f;
+}
