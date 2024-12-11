@@ -1,0 +1,42 @@
+.card-erro {
+    color: #FFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin-left: 35%;
+    margin-top: -4%;
+    background: linear-gradient(to left, #7a7a7aa1, #cfcfcf);
+    border-radius: 10%;
+}
+
+#img-erro {
+    height: 120px;
+    margin-top: 4%;
+    margin-left: 42%;
+}
+
+#refresh-btn {
+    font-size: 20px;
+    color: #FFFF;
+    width: 50%;
+    height: 10%;
+    background-color: rgba(37 108 61 / 70%);
+    text-decoration: none;
+    text-align: center; 
+    border: gray solid 1px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#refresh-btn:hover {
+    background-color:#1e3d2f;
+}
+
+.oops {
+    font: verdana , sans-serif;
+    font-size: 100px;
+}

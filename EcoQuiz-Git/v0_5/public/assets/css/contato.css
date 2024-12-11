@@ -1,0 +1,32 @@
+#corpo-real {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-size: 130%;
+    color: #FFFF;
+    width: 45%;
+}
+
+.titulo {
+    font-size: 3.5rem;
+}
+
+#card-contato {
+    background-color: rgba(37 108 61 / 70%);
+    padding: 3%;
+    border: solid gray 3px;
+    width: 68%; 
+}
+
+#img-contato {
+    width: 450px;
+    position: absolute;
+    right: 14%;
+    bottom: 22%;
+    border: #cfcfcf solid 5px;
+    border-radius: 15px;
+}
+
+#contato {
+    margin: 10px;
+}
